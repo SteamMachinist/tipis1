@@ -1,8 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-from scipy import signal
-
 
 def phase(frequency, t, shift):
     return 2 * np.pi * frequency * t + shift
